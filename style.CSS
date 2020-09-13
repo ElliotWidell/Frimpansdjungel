@@ -1,0 +1,15 @@
+#växter ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+li {
+  margin: 32px;
+  display: inline-block;
+}
+
+h1 {
+  background-image: url("bilder/djungelbakgrund.jpg");
+  }
