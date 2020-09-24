@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
 #växter ul {
   display: flex;
   justify-content: space-evenly;
@@ -10,6 +16,48 @@ li {
   display: inline-block;
 }
 
-h1 {
+header {
   background-image: url("bilder/djungelbakgrund.jpg");
-  }
+  line-height: 100px;
+}
+header,
+h1 {
+  color: white;
+  padding-left: 8px;
+}
+
+a,
+footer {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+nav {
+  font-size: 2.5ch;
+  padding-left: 15px;
+  background: black;
+  color: white;
+}
+
+a,
+p {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+#marcgraviasida {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 30px;
+}
+#marcgravia.html,
+h1 {
+  margin: 50px;
+  color: black;
+  text-align: center;
+}
