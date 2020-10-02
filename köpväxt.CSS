@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("bilder/djungelbakgrund.jpg");
+  line-height: 100px;
+}
+
+#hela-växt-sida {
+  text-align: center;
+  margin: 40px;
+}
+
+#Prislåda {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+  border: solid green;
+}
+
+#fakta-växter {
+  margin: 20px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
